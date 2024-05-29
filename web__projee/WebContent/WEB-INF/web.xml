@@ -1,0 +1,21 @@
+<web-app>
+     <!-- Configuration de la servlet AuthServlet -->
+    <servlet>
+        <servlet-name>AuthServlet</servlet-name>
+        <servlet-class>connexion.AuthServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AuthServlet</servlet-name>
+        <url-pattern>/auth</url-pattern>
+    </servlet-mapping>
+
+    <!-- Configuration de la servlet AjouterCongeServlet -->
+    <servlet>
+        <servlet-name>AjouterCongeServlet</servlet-name>
+        <servlet-class>connexion.AjouterCongeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AjouterCongeServlet</servlet-name>
+        <url-pattern>/ajouterConge</url-pattern>
+    </servlet-mapping>
+</web-app>
